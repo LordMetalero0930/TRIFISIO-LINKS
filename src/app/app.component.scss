@@ -1,0 +1,86 @@
+.main{
+    background: linear-gradient(to bottom, #9cb9ef, #1e3c72);
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+.logo-container{
+    background-color: #FFF;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 50%;
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #6693BC;
+    background-color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #124074;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #FFF;
+}
+
+// .links-container{
+//     width: 80%;
+//     border: 2px solid #FFF;
+//     display: flex;
+//     i{
+//         color: #FFF;
+//     }
+//     span{
+//         text-align: right;
+//     }
+// }
+
+.links-container {
+    width: 80%;
+    border: 2px solid #FFF;
+    display: flex;
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    color: #FFF;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    span{
+        width: calc(100% - 40px);
+        text-align: center;
+        i{
+            margin-left: 10px;
+        }
+    }
+  }
+//   .credit-number{
+//     width: auto !important;
+//   }
+  
+//   .links-container i {
+//     margin-right: auto;
+//   }
